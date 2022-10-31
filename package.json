@@ -1,0 +1,24 @@
+{
+  "name": "teamlearns-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoSattler/admin.git"
+  },
+  "author": "Mo Sattler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoSattler/admin/issues"
+  },
+  "homepage": "https://github.com/MoSattler/admin#readme",
+  "dependencies": {
+    "@adminjs/express": "^5.0.1",
+    "@adminjs/prisma": "^3.0.1",
+    "adminjs": "^6.5.0"
+  }
+}
