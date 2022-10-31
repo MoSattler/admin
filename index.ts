@@ -1,7 +1,7 @@
 import AdminJS from "adminjs";
 import AdminJSExpress from "@adminjs/express";
 import { Database, Resource } from "@adminjs/prisma";
-import { PrismaClient } from "@prisma/client";
+import type { PrismaClient } from "@prisma/client";
 import { DMMFClass } from "@prisma/client/runtime";
 
 AdminJS.registerAdapter({ Database, Resource });

@@ -38,7 +38,6 @@ const nativeNodeModulesPlugin = {
 
 export default defineConfig({
   entry: ['index.ts'],
-  noExternal: ['adminjs', '@adminjs/express', '@adminjs/prisma', '@prisma/client', '@prisma/client/runtime'],
-  // external: ['./transform.js', './processChild', '@babel/preset-typescript', '@babel/preset-react', '@adminjs/design-system'],
+  noExternal: ['adminjs'],
   esbuildPlugins: [nativeNodeModulesPlugin]
 })
